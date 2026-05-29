@@ -1,0 +1,2 @@
+use gflip func 
++gflip;g_speed 190;+forward;wait 20;-forward;g_speed 30;wait 30; 
