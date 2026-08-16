@@ -132,8 +132,6 @@ onspawn()
        self thread bots_title_emble();
         self bots_onplayerspawn();
         self.menutitle = "BLACKNOISE";
-		setDvar ("player_throwbackInnerRadius", 9999);
-		setDvar ("player_throwbackOuterRadius", 9999);
         self freezeControls(0);
         setExpFog(0, 0, 0, 0, 0, 0, 0);
         setDvar("snd_enable3D" , 1);
