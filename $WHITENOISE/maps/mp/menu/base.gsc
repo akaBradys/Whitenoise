@@ -70,8 +70,6 @@ playerloops()
         level.onlinegame = true;
         if(self isHost())
             self.pers["lives"] = 99;
-		self _setPerk("specialty_fastreload");
-		//self _setperk("specialty_quickdraw");
     }
 }
 
